@@ -5,7 +5,7 @@ body,html{
   width: 100%;
   height: 100%;
   min-width: 768px;
-  font-family: "time new romand";
+  
 }
 
 header {
@@ -23,6 +23,7 @@ header {
     transition-timing-function: ease;
     transition-delay: 0s;
     position: fixed;
+    font-family: Bookman, Tahoma, Verdana;
 
 }
 
@@ -90,6 +91,7 @@ header {
 	margin: 0 auto;
 	padding: 7% 0% 0%;
 	width: 30%;
+
 }
 
 .header_nav{
@@ -176,6 +178,7 @@ div.header_nav_wrapper{
 	display: block;
 	padding-bottom: 30px;
 	margin: 0 auto;
+	font-family: Bookman, Tahoma, Verdana;
 }
 div#produit-box h1{
 	text-align: center;
@@ -249,6 +252,7 @@ div#produit-box h1{
 	display: block;
 	padding-bottom: 10px;
 	margin: 0 auto;
+	font-family: Bookman, Tahoma, Verdana;
 }
 div#selection-box h1{
 	text-align: center;
@@ -312,6 +316,7 @@ div#selection-box h1{
 	margin: 0 auto;
 	background: #f0f0f0;
 	padding-top: 30px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 div#cadeaux-box h1{
 	text-align: center;
@@ -368,6 +373,7 @@ div#cadeaux-box h1{
 	display: block;
 	margin: 0 auto;
 	background: #ffffff;
+	font-family: Bookman, Tahoma, Verdana;
 }
 #topic-box{
 	width: 70%;
@@ -480,6 +486,7 @@ div.topic7 img{
 	margin: 0 auto;
 	background: #f0f0f0;
 	padding-top: 30px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 div#nouveaute-box h1{
 	text-align: center;
@@ -538,6 +545,7 @@ div#nouveaute-box h1{
 	padding-bottom: 15px;
 	margin: 0 auto;
 	padding-top: 50px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 #mercimm-box{
 	width: 100%;
@@ -631,6 +639,7 @@ div#nouveaute-box h1{
 	padding-bottom: 15px;
 	margin: 0 auto;
 	padding-top: 50px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 div#marque-box h1{
 	text-align: center;
@@ -727,6 +736,7 @@ div.description-marque div{
 	background: #edd8d8;
 	height: 260px;
 	padding: 30px 0 5px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 
 .remarque-box{
@@ -803,6 +813,7 @@ div.description-marque div{
 	position: relative;
 	background: #7d6666;
 	height: 525px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 			
 .question-box1{
@@ -876,6 +887,7 @@ footer{
 	display: block;
 	height: 100px;
 	padding-top: 20px;
+	font-family: Bookman, Tahoma, Verdana;
 }
 
 footer p{
