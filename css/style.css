@@ -4,7 +4,7 @@ body,html{
   margin: 0;
   width: 100%;
   height: 100%;
-  min-width: 765px;
+  min-width: 768px;
   font-family: "time new romand";
 }
 
@@ -12,8 +12,6 @@ header {
     background: #ffffff;
     border-bottom: 1px solid #eee;
     font-family: Pluto,arial,sans-serif;
-    overflow: visible;
-    position: relative;
     top: 0;
     right: 0;
     left: 0;
@@ -24,7 +22,6 @@ header {
     transition-duration: 0.2s;
     transition-timing-function: ease;
     transition-delay: 0s;
-
     position: fixed;
 
 }
@@ -92,7 +89,7 @@ header {
 	padding: 0 auto;
 	margin: 0 auto;
 	padding: 7% 0% 0%;
-	width: 31%;
+	width: 30%;
 }
 
 .header_nav{
@@ -107,6 +104,11 @@ header {
 	display: block;
 
 }}
+
+.hidden_nav{
+	visibility: hidden;
+	height: 0;
+}
 
 .navbar-nav{
 	margin: 0 auto;
@@ -579,7 +581,7 @@ div#nouveaute-box h1{
 	line-height: 160%;
 	font-size: 130%;
 	font-family: "time new romand";
-	text-align: center;
+	text-align: justify;
 }
 
 .mercimm-topic-2-content{
@@ -721,7 +723,6 @@ div.description-marque div{
 	display: block;
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 auto;
 	position: relative;
 	background: #edd8d8;
 	height: 260px;
@@ -799,22 +800,20 @@ div.description-marque div{
 	display: block;
 	width: 100%;
 	margin: 0 auto;
-	padding: 0 auto;
 	position: relative;
 	background: #7d6666;
-	height: 480px;
+	height: 525px;
 }
-
 			
 .question-box1{
 	width: 95%;
-	height: 380px;
+	height: 425px;
 	display: block;
 	margin: 0 auto;
 	border-bottom: 1px solid #000000;
 	line-height: 210%;
 	padding: 4% 0 0;
-	font-size: 90%;
+	font-size: 91%;
 }
 
 .question-1{
@@ -853,7 +852,7 @@ div.description-marque div{
 	margin: 0 auto;
 	display: block;
 	text-align: center;
-	padding: 13px 0 0;
+	padding: 15px 0 0;
 
 }
 
@@ -916,15 +915,32 @@ footer p{
     position: fixed;
     top: auto;
     left: auto;
-    right: 35px;
-    bottom: 50px;
+    right: 30px;
+    bottom: 30px;
     font-size: 37px;
-    opacity: 0.8;
     z-index: 9999;
     cursor: pointer;
-
+    width:  38px;
+    height:  38px;
+    background: #8a8a8a;
+    color:  whitesmoke;
+    text-align:  center;
+    vertical-align: center;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+	cursor: pointer;
+	visibility: hidden;
+	opacity: 0;
+	color: #ffcfcf;
 }
 
-.back-to-top:hover {
+.show_btt{
+	visibility: visible;
+	opacity: 0.8;
+}
+
+
+.back-to-top.show:hover {
     opacity: 1;
 }
