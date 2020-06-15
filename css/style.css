@@ -244,6 +244,19 @@ div#produit-box h1{
 	transition: all 0.2s ease-in-out;
 }
 
+@keyframes grow {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+#produit:hover{
+	animation: grow 0.2s linear forwards;
+}
 /*selection*/
 .selection{
 	width: 100%;
@@ -304,7 +317,21 @@ div#selection-box h1{
 	transition: all 0.2s ease-in-out;
 }
 
+.text-md{
+	font-size: 1rem;
+}
 
+.text-lg{
+	font-size: 1rem;
+}
+@media screen and (max-width: 1010px){
+	.text-md{
+	font-size: 0.7rem;
+	}
+	.text-lg{
+	font-size: 0.8rem;
+	}
+}
 
 /*Cadeau*/
 .cadeaux{
@@ -365,6 +392,9 @@ div#cadeaux-box h1{
 	transition: all 0.2s ease-in-out;
 }
 
+#cadeaux:hover{
+	animation: grow 0.2s linear forwards;
+}
 /*Topic*/
 
 .topic{
@@ -535,6 +565,10 @@ div#nouveaute-box h1{
 	transition: all 0.2s ease-in-out;
 }
 
+#nouveaute:hover{
+	animation: grow 0.2s linear forwards;
+}
+
 /*NOCIBÉ REMERCIE TOUTES LES MAMANS*/
 .mercimm{
 	width: 100%;
@@ -702,6 +736,7 @@ div.description-marque{
 	width: 22%;
 	display: block;
 	text-shadow: 2px 2px 3px red, 0 0 2em #ff00ee;
+	opacity: 0;
 }
 
 div.description-marque div{
@@ -725,6 +760,10 @@ div.description-marque div{
 .description-marque-3{
 	height: 20px;
 	width: 100%;
+}
+
+#marque:hover{
+	opacity: 1;
 }
 
 /*Remarque*/
